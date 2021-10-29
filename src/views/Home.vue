@@ -31,14 +31,18 @@ export default {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: 100vh;
     min-height: 360px;
+  }
+  img {
+    width: 150px;
   }
   .counter, .counter-squared, .buttons {
     margin-bottom: 10px;
   }
   .counter {
     font-size: 80px;
+    font-weight: bold;
   }
   .buttons button {
     font-size: 40px;
